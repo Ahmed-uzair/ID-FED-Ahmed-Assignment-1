@@ -59,3 +59,40 @@
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
+.picture-words {
+  position: relative;
+  margin-top: 21px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  width: 78%;
+  color: rgba(255, 255, 255, 2.5);
+  font-weight: bold;
+  font-size: 52%;
+}
+
+.text h1 {
+  font-size: 96px;
+  font-weight: bold;
+  background: linear-gradient(138deg, #00ff00, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text p {
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.image-s img {
+  width: 100%;
+  height: auto;
+  max-height: 505px;
+  display: block;
+}
