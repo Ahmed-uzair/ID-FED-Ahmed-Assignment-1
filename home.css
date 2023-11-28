@@ -165,3 +165,126 @@
   background-image: url("https://w7.pngwing.com/pngs/247/15/png-transparent-arrow-arrow-angle-triangle-black-thumbnail.png");
   background-size: cover;
 }
+/* classes */
+.classes-section ul {
+  list-style: none;
+}
+.classes-section ul li {
+  margin-top: 6px;
+  color: #666;
+}
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.arrow-container {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.classes-section {
+  margin-top: 32px;
+}
+
+.class-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.box {
+  flex: 0 0 calc(33.33% - 20px);
+  background-color: #bebebe;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.class-description {
+  text-align: center;
+}
+
+.c-Name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.class-description p {
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Gallery  */
+.gallery-section {
+  margin-top: 28px;
+  text-align: left;
+}
+
+.g-images img {
+  width: 155px;
+  height: auto;
+  margin-right: 22px;
+  margin-bottom: 11px;
+}
+@media screen and (max-width: 768px) {
+  .g-images img {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+/* Footer */
+.color-footer {
+  background-image: linear-gradient(to right, #ff6347, #4682b4);
+  color: white;
+}
+
+.f-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 22px 0;
+}
+
+.content-box {
+  flex: 1 0 210px;
+  text-align: center;
+}
+.content-box h3 {
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+.content-box a {
+  display: block;
+  margin-bottom: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+.image-box img {
+  width: 42px;
+  height: 42px;
+
+  margin-right: 11px;
+  border-radius: 50%;
+}
+.g-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.g-images img {
+  width: calc(50% - 5px);
+  height: auto;
+  border-radius: 6px;
+}
