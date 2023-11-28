@@ -36,3 +36,38 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sort-by span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.image-with-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.small-image {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+.image-with-text h1 {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  font-size: 46px;
+  background-image: linear-gradient(to right, #00ffcc, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
