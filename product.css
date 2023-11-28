@@ -136,3 +136,47 @@ body {
   font-size: 14px;
   color: #555;
 }
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.section {
+  flex: 1 0 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.linking {
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.linking:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.linking h2 {
+  position: absolute;
+  bottom: 22px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.linking:hover {
+  transform: scale(1.05);
+}
