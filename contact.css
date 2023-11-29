@@ -154,3 +154,86 @@ h1 {
   height: auto;
   border-radius: 6px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .navigation-buttons {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .navigation-buttons button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .top-section {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .background-photo {
+    height: 150px; /* Adjust the height of the background photo */
+  }
+
+  .background-photo h1 {
+    font-size: 28px; /* Adjust header size for smaller screens */
+  }
+
+  .operating-hours-row {
+    flex-direction: column;
+  }
+
+  .place {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .place h2 {
+    font-size: 18px;
+  }
+
+  .place p {
+    font-size: 14px;
+  }
+
+  .feedback-box textarea {
+    height: 80px; /* Adjust the height of the feedback textarea */
+  }
+
+  .feedback-box button {
+    padding: 8px 14px;
+  }
+
+  .content-box {
+    flex: 1 0 auto;
+    text-align: center;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+
+  .content-box h3 {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .image-box img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+  }
+
+  /* Footer */
+  .f-box {
+    flex-direction: column;
+    gap: 15px;
+    padding: 22px 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-box {
+    flex: 1 0 auto;
+    text-align: center;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+}
