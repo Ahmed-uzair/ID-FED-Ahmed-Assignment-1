@@ -263,3 +263,98 @@ body {
   height: auto;
   border-radius: 6px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .navigation-buttons {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .navigation-buttons button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .image-with-text h1 {
+    font-size: 17px;
+    padding: 8px;
+  }
+
+  .small-image {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .filter .description,
+  .filter .price {
+    font-size: 10px;
+  }
+
+  /* Product Section */
+  .products-section {
+    margin-top: 22px;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 22px;
+    max-width: 768px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .item {
+    flex: 0 0 calc(50% - 12px);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  /* Links Section */
+  .links {
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .section {
+    flex: 1 0 auto;
+  }
+
+  .linking {
+    height: 150px;
+  }
+
+  .linking h2 {
+    font-size: 18px;
+  }
+  .linking img {
+    max-width: 80px;
+    max-height: 50%;
+    width: 50%;
+    height: 50%;
+  }
+
+  /* Footer */
+  .f-box {
+    flex-direction: column;
+    gap: 15px;
+    padding: 22px 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-box {
+    flex: 1 0 auto;
+    text-align: center;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+}
