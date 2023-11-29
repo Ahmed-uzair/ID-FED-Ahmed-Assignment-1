@@ -90,3 +90,60 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+/* Main styles */
+main {
+  width: 81%;
+  margin: 30px auto;
+}
+
+section {
+  margin-bottom: 52px;
+  background-color: #fff;
+  padding: 22px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-content,
+.terms-content,
+.rates-content {
+  width: 81%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 22px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h2,
+.terms-content h2,
+.rates-content h2 {
+  font-size: 29px;
+  margin-bottom: 21px;
+  color: #333;
+  border-bottom: 3px solid #4d4747;
+  padding-bottom: 11px;
+}
+
+.about-content p,
+.terms-content p,
+.rates-content p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.about-content ul {
+  margin-bottom: 21px;
+}
+
+.about-content {
+  background-color: #ffe5e5;
+}
+
+.terms-content {
+  background-color: #e5e5ff;
+}
+
+.rates-content {
+  background-color: #e5ffe5;
+}
