@@ -147,3 +147,80 @@ section {
 .rates-content {
   background-color: #e5ffe5;
 }
+/* Tables*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 22px;
+}
+
+th,
+td {
+  border: 2px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.booking-hours {
+  text-align: center;
+  margin-top: 21px;
+  font-style: italic;
+  color: #777;
+}
+
+/* Footer styles */
+.gradient-footer {
+  background-image: linear-gradient(to right, #ff6347, #4682b4);
+  color: white;
+}
+.color-footer {
+  background-image: linear-gradient(to right, #ff6347, #4682b4);
+  color: white;
+}
+
+.f-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 22px 0;
+}
+
+.content-box {
+  flex: 1 0 210px;
+  text-align: center;
+}
+.content-box h3 {
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+.content-box a {
+  display: block;
+  margin-bottom: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+.image-box img {
+  width: 42px;
+  height: 42px;
+
+  margin-right: 11px;
+  border-radius: 50%;
+}
+.g-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.g-images img {
+  width: calc(50% - 5px);
+  height: auto;
+  border-radius: 6px;
+}
