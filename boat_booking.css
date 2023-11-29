@@ -104,9 +104,9 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.about-content,
-.terms-content,
-.rates-content {
+.a-content,
+.t-content,
+.r-content {
   width: 81%;
   margin: 0 auto;
   background-color: #f9f9f9;
@@ -115,9 +115,9 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.about-content h2,
-.terms-content h2,
-.rates-content h2 {
+.a-content h2,
+.t-content h2,
+.r-content h2 {
   font-size: 29px;
   margin-bottom: 21px;
   color: #333;
@@ -125,26 +125,26 @@ section {
   padding-bottom: 11px;
 }
 
-.about-content p,
-.terms-content p,
-.rates-content p {
+.a-content p,
+.t-content p,
+.r-content p {
   margin-bottom: 15px;
   color: #555;
 }
 
-.about-content ul {
+.a-content ul {
   margin-bottom: 21px;
 }
 
-.about-content {
+.a-content {
   background-color: #ffe5e5;
 }
 
-.terms-content {
+.t-content {
   background-color: #e5e5ff;
 }
 
-.rates-content {
+.r-content {
   background-color: #e5ffe5;
 }
 /* Tables*/
