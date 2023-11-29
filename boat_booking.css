@@ -224,3 +224,51 @@ thead {
   height: auto;
   border-radius: 6px;
 }
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .navigation-buttons {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .navigation-buttons button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  header {
+    height: 350px;
+    padding: 22px;
+  }
+
+  header h1 {
+    font-size: 3.7em;
+  }
+  main {
+    width: 85%;
+    margin: 22px auto;
+  }
+
+  section {
+    padding: 17px;
+  }
+
+  /* Tables */
+  table {
+    font-size: 15px;
+  }
+  /* Footer */
+  .f-box {
+    flex-direction: column;
+    gap: 15px;
+    padding: 22px 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-box {
+    flex: 1 0 auto;
+    text-align: center;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+}
