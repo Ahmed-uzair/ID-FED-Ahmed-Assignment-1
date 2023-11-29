@@ -132,11 +132,11 @@ function getProductPrice(productName) {
     return 20.0;
   } else if (productName === "Sillicon grip tape") {
     return 30.0;
-  } else if (productName === "Gift card1") {
+  } else if (productName === "Gift card($5)") {
     return 5.0;
-  } else if (productName === "Gift card2") {
+  } else if (productName === "Gift card($10)") {
     return 10.0;
-  } else if (productName === "Gift card3") {
+  } else if (productName === "Gift card($20)") {
     return 20.0;
   } else if (productName === "Hornet Paddle Blade Cover (Black/Black/Silver)") {
     return 39.0;
