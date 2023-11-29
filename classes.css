@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Hotbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 12px;
+}
+
+.Logo img {
+  width: 122px;
+  height: auto;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 22px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navigation-buttons button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 9px 13px;
+}
+.navigation-buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sort-by span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.image-with-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.image-with-text h1 {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  font-size: 46px;
+  background-image: linear-gradient(to right, #00ffcc, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
