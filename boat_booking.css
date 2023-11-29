@@ -30,3 +30,63 @@
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* Add more styles if needed */
+}
+
+/* Header styles */
+header {
+  background-image: url("https://www.peninsula.com/-/media/images/hong-kong/offers/holidays/dragon-boat-experience-2017/dragon-boat-1074.jpg?mw=987&hash=99A1A6726E7FD3DAFA995D1E9AA7169E");
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 6em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color: #ff6347;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.65;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.header-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 22px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
