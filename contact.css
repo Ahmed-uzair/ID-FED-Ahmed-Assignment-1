@@ -30,3 +30,53 @@
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
+.top-section {
+  position: relative;
+}
+
+.background-photo {
+  background-image: url("https://cdn.flatworldsolutions.com/call-center/images/what-are-the-top-10-qualities-a-call-center-agent-should-possess.jpg");
+  height: 415px;
+  background-size: cover;
+  background-position: center;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 22px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.operating-hours-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 22px;
+}
+
+.place {
+  width: 46%;
+  padding: 14px;
+  border-radius: 6px;
+  background-color: #f0f7fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.place h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.place p {
+  margin-bottom: 0;
+  color: #666;
+}
