@@ -29,233 +29,369 @@
       </div>
     </div>
 
-     <!-- Product Section -->
-     <div class="product-section">
-        <div class="image-with-text">
-            <h1>Dragon Boat Paddles</h1>
-            <br>
-            <div class="product-images">
-                <img class="small-image" src="https://cdn.shopify.com/s/files/1/0698/7353/files/Hornet_Amazon_Storefront_Images_1_22-02_15a74d5e-980c-4568-8492-7d6c4b08276e_2048x2048.png?v=1654254824" alt="Paddle Image">
-            </div>
+    <!-- Product Section -->
+    <div class="product-section">
+      <div class="image-with-text">
+        <h1>Dragon Boat Paddles</h1>
+        <br />
+        <div class="product-images">
+          <img
+            class="small-image"
+            src="https://cdn.shopify.com/s/files/1/0698/7353/files/Hornet_Amazon_Storefront_Images_1_22-02_15a74d5e-980c-4568-8492-7d6c4b08276e_2048x2048.png?v=1654254824"
+            alt="Paddle Image"
+          />
         </div>
-        <!--filter section -->
-        <div class="sort-by">
-            <span>Sort by:</span>
-            <select id="sortSelect">
-              <option value="default">Default</option>
-              <option value="availability">Availability</option>
-              <option value="price">Price</option>
-              
-              <!-- Add more sorting options if needed -->
-            </select>
-          
+      </div>
+      <!--filter section -->
+      <div class="sort-by">
+        <span>Sort by:</span>
+        <select id="sortSelect">
+          <option value="default">Default</option>
+          <option value="availability">Availability</option>
+          <option value="price">Price</option>
+
+          <!-- Add more sorting options if needed -->
+        </select>
+
         <!--  Products -->
-        </div>
-        
-        <div class="cart-icon" onclick="toggleCart()">🛒</div>
+      </div>
 
-         <!-- Cart Popup -->
-        <div class="cart-popup" id="cartPopup">
-            <h2>Shopping Cart</h2>
-            <div class="cart-items" id="cartItems"></div>
+      <div class="cart-icon" onclick="toggleCart()">🛒</div>
+
+      <!-- Cart Popup -->
+      <div class="cart-popup" id="cartPopup">
+        <h2>Shopping Cart</h2>
+        <div class="cart-items" id="cartItems"></div>
+      </div>
+
+      <h1>Dragon Paddles</h1>
+      <div class="products">
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/files/537170583-dragon-head-matte-leverlock-1_2048x2048.jpg?v=1695397605"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Dragon Head Matte Paddle</h3>
+            <p>
+              The Dragon Head Matte Leverlock paddle offers superior
+              performance.
+            </p>
+            <p class="price">$310.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Dragon Head Matte Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/files/StickerAdventurePaddle_CloseUp_1_720x.png?v=1683054502 "
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Sticker Adventure Paddle</h3>
+            <p>
+              The Sticker Adventure Paddle Close Up provides excellent
+              maneuverability and control. Its an ideal choice for every type of
+              paddler.
+            </p>
+            <p class="price">$270.00</p>
+            <p class="availability">Out of Stock</p>
+            <button onclick="addToCart('Sticker Adventure Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632244-kraken-leverlock-2_720x.jpg?v=1683733325"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Kraken Paddle</h3>
+            <p>
+              The kraken paddle shows a kraken wraped around the paddle under
+              the sea. The grip that the kraken has is the same grip you will
+              have when you are holding onto the paddle and pulling the water
+            </p>
+            <p class="price">$290.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Kraken Paddle')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632176-crush-leverlock-2_2048x2048.jpg?v=1683733208"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Crush Paddle</h3>
+            <p>
+              The crush paddle has a bunch of beach graffity on it which makes
+              it look amazing when ou are paddling
+            </p>
+            <p class="price">$260.00</p>
+            <p class="availability">Out Of Stock</p>
+            <button onclick="addToCart('Crush Paddle')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632131-black-sting-leverlock-2_2048x2048.jpg?v=1683733099"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Black Matte Paddle</h3>
+            <p>
+              The Black Matte paddle gives a minimalistic look. You can go above
+              and beyoond to paste you own stickers on your paddle to make it
+              special
+            </p>
+            <p class="price">$210.00</p>
+            <p class="availability">Out Of Stock</p>
+            <button onclick="addToCart('Black Matte Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632155-blue-dragon-matte-leverlock-2_2048x2048.jpg?v=1683733133"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Blue Dragon Paddle</h3>
+            <p>
+              The Blue dragon paddle had a good looking paddle at the front and
+              back side of the paddle
+            </p>
+            <p class="price">$280.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Blue Dragon Paddle')">
+              Add to Cart
+            </button>
+          </div>
         </div>
 
-        <h1>Dragon Paddles</h1>
-        <div class="products">
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/files/537170583-dragon-head-matte-leverlock-1_2048x2048.jpg?v=1695397605" alt="Product Image">
-                <div class="description">
-                    <h3>Dragon Head Matte Paddle</h3>
-                    <p>The Dragon Head Matte Leverlock paddle offers superior performance.</p>
-                    <p class="price">$310.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Dragon Head Matte Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/files/StickerAdventurePaddle_CloseUp_1_720x.png?v=1683054502 " alt="Product Image">
-                <div class="description">
-                    <h3>Sticker Adventure Paddle<h3>
-                    <p>The Sticker Adventure Paddle Close Up provides excellent maneuverability and control. Its an ideal choice for every type of paddler.</p>
-                    <p class="price">$270.00</p>
-                    <p class="availability">Out of Stock</p>
-                    <button onclick="addToCart('Sticker Adventure Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632244-kraken-leverlock-2_720x.jpg?v=1683733325" alt="Product Image">
-                <div class="description">
-                    <h3>Kraken Paddle</h3>
-                    <p>The kraken paddle shows a kraken wraped around the paddle under the sea. The grip that the kraken has is the same grip you will have when you are holding onto the paddle and pulling the water</p>
-                    <p class="price">$290.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Kraken Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632176-crush-leverlock-2_2048x2048.jpg?v=1683733208" alt="Product Image">
-                <div class="description">
-                    <h3>Crush Paddle</h3>
-                    <p>The crush paddle has a bunch of beach graffity on it which makes it look amazing when ou are paddling</p>
-                    <p class="price">$260.00</p>
-                    <p class="availability">Out Of Stock</p>
-                    <button onclick="addToCart('Crush Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632131-black-sting-leverlock-2_2048x2048.jpg?v=1683733099" alt="Product Image">
-                <div class="description">
-                    <h3>Black Matte Paddle</h3>
-                    <p>The Black Matte paddle gives a minimalistic look. You can go above and beyoond to paste you own stickers on your paddle to make it special</p>
-                    <p class="price">$210.00</p>
-                    <p class="availability">Out Of Stock</p>
-                    <button onclick="addToCart('Black Matte Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632155-blue-dragon-matte-leverlock-2_2048x2048.jpg?v=1683733133" alt="Product Image">
-                <div class="description">
-                    <h3>Blue Dragon Paddle</h3>
-                    <p>The Blue dragon paddle had a good looking paddle at the front and back side of the paddle</p>
-                    <p class="price">$280.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Blue Dragon Paddle')">Add to Cart</button>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632264-pink-dragon-leverlock-2_720x.jpg?v=1683733399" alt="Product Image">
-                <div class="description">
-                    <h3>Pink Dragon Paddle</h3>
-                    <p>The Pink dragon paddle had a good looking paddle at the front and back side of the paddle</p>
-                    <p class="price">$280.00</p>
-                    <p class="availability">Out Of Stock</p>
-                    <button onclick="addToCart('Pink Dragon Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632197-dragon-heart-leverlock-2_2048x2048.jpg?v=1683733250" alt="Product Image">
-                <div class="description">
-                    <h3>Dragon Heart Paddle</h3>
-                    <p>The Dragon heart paddle has th design of the dragons heart. While holding onto this paddle you will get excellent strength and would be able to pull away your competitors easily</p>
-                    <p class="price">$300.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Dragon Heart Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632082-black-artisan-dragon-matte-leverlock-2_720x.jpg?v=1683733029" alt="Product Image">
-                <div class="description">
-                    <h3>Artistic Dragon Paddle</h3>
-                    <p> The Artistic dragon has a bunch of graffiti around the black and white dragon</p>
-                    <p class="price">$270.00</p>
-                    <p class="availability">Out Of Stock</p>
-                    <button onclick="addToCart('Artistic Dragon Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/products/489632218-dragon-master-leverlock-2_2048x2048.jpg?v=1683733282" alt="Product Image">
-                <div class="description">
-                    <h3>Dragon Master Paddle</h3>
-                    <p>The dragon Master will scare away your opponents. The fierce dragon will scare all the opponents and give you an enormous amount of strength.</p>
-                    <p class="price">$310.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Dragon Master Paddle')">Add to Cart</button>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.hornetwatersports.com/cdn/shop/files/black-glossy-matte-leverlock-1_1_720x.jpg?v=1696419182" alt="Product Image">
-                <div class="description">
-                    <h3>Black Glossy paddle</h3>
-                    <p>The Black glossy paddle gives you a minimalistic look and allow you to customiize it while making it look shiny.</p>
-                    <p class="price">$250.00</p>
-                    <p class="availability">Out Of Stock</p>
-                    <button onclick="addToCart('Black Glossy paddle')">Add to Cart</button>
-                </div>   
-            </div>
-            <div class="item">
-                <img src="https://m.media-amazon.com/images/I/717jtMduGdS.jpg" alt="Product Image">
-                <div class="description">
-                    <h3>Sakura Koi Fish paddle</h3>
-                    <p>The Sakura Koi Fish gives a very good grip that allows you to pull the water in the best way possible. The furosious sakurai fish will scare all your opponents away</p>
-                    <p class="price">$320.00</p>
-                    <p class="availability">In Stock</p>
-                    <button onclick="addToCart('Sakura Koi Fish paddle')">Add to Cart</button>
-                </div>   
-            </div>
-                
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632264-pink-dragon-leverlock-2_720x.jpg?v=1683733399"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Pink Dragon Paddle</h3>
+            <p>
+              The Pink dragon paddle had a good looking paddle at the front and
+              back side of the paddle
+            </p>
+            <p class="price">$280.00</p>
+            <p class="availability">Out Of Stock</p>
+            <button onclick="addToCart('Pink Dragon Paddle')">
+              Add to Cart
+            </button>
+          </div>
         </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632197-dragon-heart-leverlock-2_2048x2048.jpg?v=1683733250"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Dragon Heart Paddle</h3>
+            <p>
+              The Dragon heart paddle has th design of the dragons heart. While
+              holding onto this paddle you will get excellent strength and would
+              be able to pull away your competitors easily
+            </p>
+            <p class="price">$300.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Dragon Heart Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632082-black-artisan-dragon-matte-leverlock-2_720x.jpg?v=1683733029"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Artistic Dragon Paddle</h3>
+            <p>
+              The Artistic dragon has a bunch of graffiti around the black and
+              white dragon
+            </p>
+            <p class="price">$270.00</p>
+            <p class="availability">Out Of Stock</p>
+            <button onclick="addToCart('Artistic Dragon Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/products/489632218-dragon-master-leverlock-2_2048x2048.jpg?v=1683733282"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Dragon Master Paddle</h3>
+            <p>
+              The dragon Master will scare away your opponents. The fierce
+              dragon will scare all the opponents and give you an enormous
+              amount of strength.
+            </p>
+            <p class="price">$310.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Dragon Master Paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hornetwatersports.com/cdn/shop/files/black-glossy-matte-leverlock-1_1_720x.jpg?v=1696419182"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Black Glossy paddle</h3>
+            <p>
+              The Black glossy paddle gives you a minimalistic look and allow
+              you to customiize it while making it look shiny.
+            </p>
+            <p class="price">$250.00</p>
+            <p class="availability">Out Of Stock</p>
+            <button onclick="addToCart('Black Glossy paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://m.media-amazon.com/images/I/717jtMduGdS.jpg"
+            alt="Product Image"
+          />
+          <div class="description">
+            <h3>Sakura Koi Fish paddle</h3>
+            <p>
+              The Sakura Koi Fish gives a very good grip that allows you to pull
+              the water in the best way possible. The furosious sakurai fish
+              will scare all your opponents away
+            </p>
+            <p class="price">$320.00</p>
+            <p class="availability">In Stock</p>
+            <button onclick="addToCart('Sakura Koi Fish paddle')">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--links-->
     <div class="links">
-        <div class="section">
-            <a href="product.html">
-                <div class="linking" style="background-image: url('https://www.hornetwatersports.com/cdn/shop/products/New_Paddles_Lifestyle_2023_1_1cdbaef2-82ab-44af-bcdb-d7cf53578ad0_2048x.png?v=1683733399');" alt="Product Image">
-                    <h2>Dragon Boat Paddles</h2>
-                </div>
-            </a>
-        </div>
-        <div class="section">
-            <a href="clearance.html">
-                <div class="linking" style="background-image: url('https://dragonboat.ph/wp-content/uploads/2017/07/New-Hornet-Sting-Black-X0-Blade.jpg');" alt="Product Image">
-                    <h2>Clearance</h2>
-                </div>
-            </a>
-        </div>
-        <div class="section">
-            <a href="accessories.html">
-                <div class="linking" style="background-image: url('https://media.karousell.com/media/photos/products/2023/6/30/hornet_dragonboat_seat_pad_acc_1688105450_0ebc5286_progressive');" alt="Product Image">
-                    <h2>Dragon Boat Accessories</h2>
-                </div>
-            </a>
-        </div>
+      <div class="section">
+        <a href="product.html">
+          <div
+            class="linking"
+            style="
+              background-image: url('https://www.hornetwatersports.com/cdn/shop/products/New_Paddles_Lifestyle_2023_1_1cdbaef2-82ab-44af-bcdb-d7cf53578ad0_2048x.png?v=1683733399');
+            "
+          >
+            <h2>Dragon Boat Paddles</h2>
+          </div>
+        </a>
+      </div>
+      <div class="section">
+        <a href="clearance.html">
+          <div
+            class="linking"
+            style="
+              background-image: url('https://dragonboat.ph/wp-content/uploads/2017/07/New-Hornet-Sting-Black-X0-Blade.jpg');
+            "
+          >
+            <h2>Clearance</h2>
+          </div>
+        </a>
+      </div>
+      <div class="section">
+        <a href="accessories.html">
+          <div
+            class="linking"
+            style="
+              background-image: url('https://media.karousell.com/media/photos/products/2023/6/30/hornet_dragonboat_seat_pad_acc_1688105450_0ebc5286_progressive');
+            "
+          >
+            <h2>Dragon Boat Accessories</h2>
+          </div>
+        </a>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    
+    <br />
+    <br />
+    <br />
+    <br />
 
-    </div>
     <!-- Footer -->
     <footer class="color-footer">
-        <div class="f-box">
-            <div class="content-box">
-                <h3>About Us</h3>
-                <p>We want to give you the experience of real dragon boaters and make your experience a memorable one. We have products you can buy, classes you can attend, and boats that you can book to have a fun day with your friends.</p>
-            </div>
-            <div class="content-box">
-                <h3>Business Hours</h3>
-                <p>
-                    Monday - Sunday<br>
-                    7am - 10pm
-                </p>
-            </div>
-            <div class="content-box">
-                <h3>Contact</h3>
-                <p>You may call us at <a href="tel:+6512345678">+65 1234 5678</a> or come visit us at Kalang between 7AM to 10PM, daily.</p>
-            </div>
-            <div class="content-box1">
-                <h3>Quick Links</h3>
-                <button onclick="window.location.href='index.html'">Home</button>
-                <button onclick="window.location.href='product.html'">Products</button>
-                <button onclick="window.location.href='boat_booking.html'">Boat Booking</button>
-                <button onclick="window.location.href='classes.html'">Classes</button>
-                <button onclick="window.location.href='contact_us.html'">Contact US</button>
-            </div>
-            <div class="image-box">
-                <h3>Connect</h3>
-                <a href="https://www.instagram.com/hornet_watersports/" target="_blank">
-                    <img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-logo-instagram-ini-ada-varias-dan-transparan-33.png" alt="Instagram">
-                  </a>
-                  <a href="https://www.facebook.com/hornetWS/" target="_blank">
-                    <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook">
-                  </a>
-            </div>
+      <div class="f-box">
+        <div class="content-box">
+          <h3>About Us</h3>
+          <p>
+            We want to give you the experience of real dragon boaters and make
+            your experience a memorable one. We have products you can buy,
+            classes you can attend, and boats that you can book to have a fun
+            day with your friends.
+          </p>
         </div>
+        <div class="content-box">
+          <h3>Business Hours</h3>
+          <p>
+            Monday - Sunday<br />
+            7am - 10pm
+          </p>
+        </div>
+        <div class="content-box">
+          <h3>Contact</h3>
+          <p>
+            You may call us at <a href="tel:+6512345678">+65 1234 5678</a> or
+            come visit us at Kalang between 7AM to 10PM, daily.
+          </p>
+        </div>
+        <div class="content-box1">
+          <h3>Quick Links</h3>
+          <button onclick="window.location.href='index.html'">Home</button>
+          <button onclick="window.location.href='product.html'">
+            Products
+          </button>
+          <button onclick="window.location.href='boat_booking.html'">
+            Boat Booking
+          </button>
+          <button onclick="window.location.href='classes.html'">Classes</button>
+          <button onclick="window.location.href='contact_us.html'">
+            Contact US
+          </button>
+        </div>
+        <div class="image-box">
+          <h3>Connect</h3>
+          <a
+            href="https://www.instagram.com/hornet_watersports/"
+            target="_blank"
+          >
+            <img
+              src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-logo-instagram-ini-ada-varias-dan-transparan-33.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://www.facebook.com/hornetWS/" target="_blank">
+            <img
+              src="https://www.facebook.com/images/fb_icon_325x325.png"
+              alt="Facebook"
+            />
+          </a>
+        </div>
+      </div>
     </footer>
     <script src="product.js"></script>
-</body>
+  </body>
 </html>
-
