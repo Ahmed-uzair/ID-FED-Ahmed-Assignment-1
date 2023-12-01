@@ -4,6 +4,9 @@ body {
   font-family: arial;
   background-color: #fff;
 }
+body {
+  overflow-x: hidden;
+}
 
 .Page {
   display: flex;
